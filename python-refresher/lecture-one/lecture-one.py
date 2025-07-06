@@ -63,4 +63,9 @@ print(total_money - item_cost - (item_cost*tax__percent))
 #----------------------------------STRING FORMATTING--------------------------------
 
 first_name="Nikola"
-print("Hi "+first_name)
+print(f"Hi {first_name}")
+
+setnence="Hi {} {}"
+last_name="Ninov"
+print(setnence.format(first_name,last_name))
+print(setnence.format(last_name,first_name))
