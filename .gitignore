@@ -10,3 +10,6 @@ __pycache__/
 # Mac or Windows
 .DS_Store
 Thumbs.db
+
+
+.env
